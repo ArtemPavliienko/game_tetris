@@ -1,0 +1,35 @@
+{
+  "name": "gulps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel es678.js -o es5.js",
+    "babelWatch": "babel src/es678.js -o dist/es5.js -w"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "dependencies": {
+    "gulp-sass": "^3.1.0",
+    "pkg": "^3.0.0-beta.29"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-image": "^4.3.0",
+    "gulp-rename": "^1.2.2",
+    "precss": "^2.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
